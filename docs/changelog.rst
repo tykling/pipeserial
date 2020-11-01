@@ -7,7 +7,12 @@ this changelogs format is based on Keep a Changelog from https://keepachangelog.
 
 [0.2.0] - Unreleased
 ====================
-- No changes
+
+Fixed
+-----
+- Typo in debug console output prefix, was ``pipeperial`` instead of ``pipeserial``.
+- Add missing ``f`` for f-string in debug message in __init__ method.
+
 
 [0.1.0] - 2020-11-01
 ====================
