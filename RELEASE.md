@@ -2,7 +2,7 @@ Creating a PipeSerial release
 ==============================
 
 First, update the version numbers in needed files:
-    sed -i'' "s/0.1.0-dev/0.1.0/g" setup.py pipeserial/pipeserial.py
+    sed -i'' "s/0.1.0-dev/0.1.0/g" setup.py pipeserial/pipeserial.py docs/conf.py docs/usage.rst
 
 Then update release date in docs/changelog.rst.
 
