@@ -1,4 +1,4 @@
-"""PipeSerial v0.3.0 module.
+"""PipeSerial v0.4.0-dev module.
 
 Source code available at https://github.com/tykling/pipeserial/
 Can be installed from PyPi https://pypi.org/project/pipeserial/
@@ -14,7 +14,7 @@ import typing
 import serial  # type: ignore
 from pexpect_serial import SerialSpawn  # type: ignore
 
-__version__ = "0.3.0"
+__version__ = "0.4.0-dev"
 logger = logging.getLogger("pipeserial.%s" % __name__)
 
 
