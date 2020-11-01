@@ -2,11 +2,6 @@
 
 More info at https://www.sphinx-doc.org/en/master/usage/configuration.html
 """
-import os
-import sys
-
-# include the pipeserial package so extensions are available
-sys.path.insert(0, os.path.abspath("../pipeserial"))
 
 project = "PipeSerial"
 copyright = "2020, Thomas Steen Rasmussen"
