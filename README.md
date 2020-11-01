@@ -4,7 +4,23 @@ PipeSerial is a command-line utility to send some input from stdin to a serial d
 A quick example:
 
 ```
-[tykling@container1 ~]$ echo -ne "AT\nATI" | sudo venv/bin/python pipeserial.py -c 2 -d /dev/ttyU0.3
+[tykling@container1 ~]$ echo -ne "AT\nATI" | sudo pipeserial -c 2 /dev/ttyU0.3
+AT
+OK
+ATI
+Quectel
+EC25
+Revision: EC25EFAR06A06M4G
+
+OK
+
+[tykling@container1 ~]$
+```
+
+Same thing with debug enabled:
+
+```
+[tykling@container1 ~]$ echo -ne "AT\nATI" | sudo pipeserial -c 2 -d /dev/ttyU0.3
 2020-10-31 22:49:42 +0000 pipeserial DEBUG pipeperial.main():311:  Initialising the PipeSerial class
 2020-10-31 22:49:42 +0000 pipeserial DEBUG pipeperial.__init__():54:  Configuring serial port {serialport} ...
 2020-10-31 22:49:42 +0000 pipeserial DEBUG pipeperial.main():329:  Payload is 6 bytes
