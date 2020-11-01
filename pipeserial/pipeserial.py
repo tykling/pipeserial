@@ -51,7 +51,7 @@ class PipeSerial:
         Returns:
             Nothing
         """
-        logger.debug("Configuring serial port {serialport} ...")
+        logger.debug(f"Configuring serial port {serialport} ...")
         self.ser = serial.serial_for_url(serialport, do_not_open=True)
         self.ser.baudrate = baudrate
         self.ser.bytesize = bytesize
@@ -305,7 +305,7 @@ def main() -> None:
 
     # define the log format used for stdout depending on the requested loglevel
     if args.loglevel == "DEBUG":
-        console_logformat = "%(asctime)s pipeserial %(levelname)s pipeperial.%(funcName)s():%(lineno)i:  %(message)s"
+        console_logformat = "%(asctime)s pipeserial %(levelname)s pipeserial.%(funcName)s():%(lineno)i:  %(message)s"
     else:
         console_logformat = "%(asctime)s pipeserial %(levelname)s %(message)s"
 
