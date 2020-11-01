@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to Semantic Versioning from https://semver.org/spec/v2.0.0.html, and
 this changelogs format is based on Keep a Changelog from https://keepachangelog.com/en/1.0.0/.
 
-[0.2.0] - Unreleased
+[0.3.0] - Unreleased
 ====================
-- No changes
+
+Fixed
+-----
+- Remove unused version section breaking everything
 
 
 [0.2.0] - 2020-11-01

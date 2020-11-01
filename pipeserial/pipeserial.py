@@ -316,11 +316,6 @@ def main() -> None:
         datefmt="%Y-%m-%d %H:%M:%S %z",
     )
 
-    # show version and exit?
-    if args.version:
-        logger.info(f"PipeSerial version {__version__}")
-        sys.exit(0)
-
     logger.debug("Initialising the PipeSerial class")
     sp = PipeSerial(
         serialport=args.serialport,
