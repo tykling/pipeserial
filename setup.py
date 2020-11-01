@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pipeserial",
-    version="0.1.0-dev",
+    version="0.1.0",
     author="Thomas Steen Rasmussen",
     author_email="thomas@gibfest.dk",
     description="PipeSerial is a command-line utility to send some input from stdin to a serial device, and then collect and return the output from the device.",

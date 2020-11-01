@@ -11,7 +11,7 @@ Until I get something better written here are the argparse usage instructions::
                      [--dtr DTR]
                      serialport [baudrate]
 
-   PipeSerial version 0.1.0-dev. Sends input to a serial device, awaits (expects)
+   PipeSerial version 0.1.0. Sends input to a serial device, awaits (expects)
    some text, and returns the output. See the manpage or ReadTheDocs for more
    info.
 
