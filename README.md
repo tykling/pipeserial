@@ -1,2 +1,3 @@
-# serialpipe
-Commandline utility to run a command on a serial device and return the output. Based on pyserial and pexpect.
+# PipeSerial
+PipeSerial is a command-line utility to send some input from stdin to a serial device and return the output on stdout.
+

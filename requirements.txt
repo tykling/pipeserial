@@ -1,0 +1,4 @@
+pexpect==4.8.0
+pexpect-serial==0.1.0
+ptyprocess==0.6.0
+pyserial==3.4

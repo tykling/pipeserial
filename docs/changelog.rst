@@ -1,0 +1,16 @@
+PipeSerial Changelog
+====================
+All notable changes to this project will be documented in this file.
+
+This project adheres to Semantic Versioning from https://semver.org/spec/v2.0.0.html, and
+this changelogs format is based on Keep a Changelog from https://keepachangelog.com/en/1.0.0/.
+
+[Unreleased]
+============
+
+Added
+-----
+- Initial serialpipe code and package
+- Docs including this changelog
+- The humble beginnings of a testsuite
+
